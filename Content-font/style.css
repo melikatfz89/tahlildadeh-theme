@@ -1,0 +1,72 @@
+﻿.btnDanger {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #c00;
+    border-radius: 7px;
+    box-shadow: -1px 1px 2px 0px #e3dddd;
+    display: inline-block;
+    font-weight: 500;
+}
+
+    .btnDanger:hover {
+        transition: all 1s;
+        background-color: #ad0000;
+    }
+
+.leftBox {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.rightBox {
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    float: right;
+}
+
+body {
+    direction: rtl;
+}
+
+.main-nav {
+}
+
+.main-nav > .nav-items {
+margin: 0px;
+list-style: none;
+}
+
+.main-nav > .nav-items > .nav-item {
+float: right;
+}
+
+.main-nav > .nav-items > .nav-item > .nav-link {
+text-decoration: none;
+display: block;
+background-color: #616161;
+color: whitesmoke;
+padding: 10px 31px;
+margin-right: 1px;
+border-bottom: 3px solid transparent;
+border-radius: 5px;
+}
+
+.main-nav > .nav-items > .nav-item > .nav-link:hover {
+background-color: #757575;
+border-bottom: 3px solid red;
+transition: all .5s;
+}
+.icon{
+    color:darkblue;
+    font-size:46px;
+    display:inline-block;
+    margin : 20px;
+}
+.pinkIcon{
+    color:palevioletred;
+    font-size:72px;
+}

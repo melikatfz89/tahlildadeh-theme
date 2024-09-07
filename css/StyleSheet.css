@@ -1,0 +1,322 @@
+﻿body {
+    direction: rtl;
+    background-color:darkred;
+    overscroll-behavior-x:none;
+}
+.box1 {
+    background-color: darkorchid;
+    width:95%;
+    height: 400px;
+    margin-top:10px;
+}
+.aytem {
+    height: 50px;
+    border: 2px solid blue;
+    margin-top: 10px;
+}
+.header {
+    background-image: url('imgtahlil/New folder/adSample.png');
+    background-repeat:repeat-x;
+    height: 15px;
+    text-align: center;
+    align-items:center;
+    align-content: center;
+    padding-top:20px;
+}
+    .header > .imgheader {
+        align-items: center;
+    }
+.header > .imgheader > .a-header {
+    color: white;
+    font-family: 'B Yekan';
+    font-size: 22px;
+    text-decoration:none;
+    font-weight:bolder;
+}
+.h5header {
+    font-family: 'B Yekan';
+    font-size: 18px;
+    color: #1d71b9;
+    font-weight:bold;
+    padding-top:20px;
+    text-align:center;
+}
+.ihomes {
+    color: #ffff;
+    text-align: center;
+    font-size: 25px !important;
+    padding: 20px;
+}
+.ihomes:hover{
+    text-shadow:1px 1px 5px gray;
+}
+.ahomes {
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;
+}
+.pheader {
+    font-family: 'B Yekan';
+    font-size: 15px;
+    text-align: center;
+    color: #1d71b9;
+}
+.inputheader {
+    width: 450px;
+    height: 55px;
+    text-align: right;
+    font-family: 'B Yekan';
+    margin-top: 16px;
+    padding-right: 60px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight:100;
+}
+.welcomebutton {
+    background-color: #1d71b9;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: 55px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-family: 'B Yekan';
+    margin:15px;
+}
+.amazingslider-wrapper {
+    width: 100%;
+    height: 150px;
+}
+.sliderdiv{
+    height:645px;
+}
+.childmenu {
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 50px;
+    padding-top: 7px;
+}
+    .childmenu > a {
+        text-decoration: none;
+        font-size: 17px;
+        color: #000;
+        font-weight: 100;
+        text-align: center;
+        align-items: baseline;
+        font-family: 'B Yekan';
+        position: relative;
+    }
+.layer-2 {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    border-radius: 3px;
+    right: 10px;
+}
+
+a:hover .layer-2 {
+    display: block;
+}
+.halfcircle > .counterchild {
+    width: 160px;
+    height: 160px;
+    border-radius: 350px;
+    margin: -6px 30px;
+}
+.num{
+    font-size:25px;
+    font-weight:bold;
+}
+.h54gam {
+    font-family: 'B Yekan';
+    font-weight: bold;
+    color: #1d71b9;
+    margin-top: 65px;
+    margin-right: -85px;
+    text-align:justify;
+}
+.zoozenagh {
+    border: 5px solid white;
+    height: 70px;
+    text-align: center;
+    padding-top:10px;
+    clip-path: polygon(0 0,100% 0,85% 100%,15% 100%);
+    color:white;
+    font-weight:bold;
+    font-size:22px;
+    font-family:'B Yekan';
+}
+.textzoozenegh {
+    color: #ffd413;
+    font-weight: bold;
+    font-family: 'B Yekan';
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px
+}
+.article {
+    box-shadow: 1px 1px 6px 1px gray;
+    padding: 80px 20px 20px;
+    margin-top: -70px;
+    border-radius: 14px;
+    font-family: 'B Yekan';
+}
+img.img-fluid col-3 float-right {
+    padding-bottom: 30px;
+}
+img.img-fluid.d-block.mx-auto {
+    margin-top: 30px;
+}
+img.img-fluid.rounded-circle.col-12 {
+    margin-top: 17px;
+}
+.fimfim {
+    background-image: url('imgtahlil/New folder (2)/Fim135mm.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height:150px;
+}
+.axfim{
+    margin-top:35px;
+}
+    .fimfim:hover {
+        filter: drop-shadow(1px 1px 5px gray);
+    }
+.afim{
+    background:linear-gradient(to bottom,gray,white);
+    padding:10px 30px;
+    text-align:center;
+    color:gray;
+    font-family:'B Yekan';
+    font-size:17px;
+    border-radius:14px;
+    text-decoration:none;
+    border:1px solid gray;
+}
+    .afim:hover {
+        text-decoration: none;
+        filter: drop-shadow(1px 1px 5px gray);
+    }
+.divtext1 {
+    background-color: #f5f5f5;
+}
+.text1{
+    font-family:'B Yekan';
+    font-size:16px;
+    text-align:justify;
+    padding:30px 60px;
+    color:gray;
+    line-height:40px;
+}
+.cardtxt{
+    font-family:'B Yekan';
+}
+.books {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 50px 10px;
+    flex-basis: 28%;
+}
+
+.books > .textbooks {
+        color: #1d71b8;
+        font-family: 'B Yekan';
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0 auto;
+        padding: 14px 10px;
+    }
+
+.books > .imgbook {
+        width: 230px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+.books > .pbooks {
+        color: #c0c0c0;
+        font-family: 'B Yekan';
+        font-size: 16px;
+        padding: 6px 5px 5px 5px;
+        text-align: justify;
+        height: 70px;
+    }
+
+.books > .autors > .abooks {
+    background-color: #fcb917;
+    border-radius: 30px;
+    flex-basis: 38%;
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    margin: 18px;
+    font-family: 'B Yekan';
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.autors > .colbooks > h3 {
+    font-size: 14px;
+    color: #1d71b8;
+    font-weight: bold;
+    font-family: 'B Yekan';
+}
+.divblockbutton{
+    text-align:center;
+}
+.ayellowblock {
+    background-color: #fcb917;
+    padding: 12px 40px;
+    border-radius: 14px;
+    font-family:'B Yekan';
+    color:black;
+    font-size:18px;
+    display:block;
+}
+.ayellowblock:hover{
+    text-decoration:none;
+}
+.instagram{
+    background: white;
+    padding:20px;
+    border-radius:16px;
+    margin:10px;
+}
+.instacarosel {
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    padding: 10px;
+    margin:10px;
+}
+.p-insta{
+    font-size:14px;
+    font-family:'B Yekan';
+}
+.matnchild1 {
+    font-family: 'B Yekan';
+    overflow: scroll;
+    height: 300px;
+    border: 1px solid #1d71b9;
+    border-radius: 12px;
+    padding: 15px;
+    line-height: 40px;
+}
+.divasli {
+    background-color: #2086c8;
+    color: white;
+    font-family: 'B Yekan';
+    padding:20px;
+}
+
